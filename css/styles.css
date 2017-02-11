@@ -1,0 +1,33 @@
+.box-container {
+  width: 50%;
+  margin: auto;
+}
+.jumbotron {
+  margin: 3px;
+  padding:30px;
+}
+h2{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: white;
+}
+.signUpBtn {
+  background-color: #FF5A5F;
+}
+.signUpBtn:hover, .browseRecipeBtn:hover, .feedbackBtn:hover, .shareRecipeBtn:hover  {
+  opacity: .8;
+}
+.browseRecipeBtn {
+  background-color: #EEEC49;
+}
+.feedbackBtn {
+  background-color: #4CB0BB;
+}
+.shareRecipeBtn {
+  background-color: #454B55;
+}
+a:hover{
+  text-decoration: none;
+}
