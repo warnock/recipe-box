@@ -1,9 +1,26 @@
+html, body, section {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+nav {
+margin: 0 0 35px 0;
+}
+.box-img-container {
+  background-image: url("../img/food1.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+}
 .box-container {
   width: 50%;
-  margin: auto;
 }
 .jumbotron {
-  margin: 3px;
+  margin: 0px;
   padding:30px;
 }
 h2{
@@ -16,14 +33,14 @@ h2{
 .signUpBtn {
   background-color: #FF5A5F;
 }
-.signUpBtn:hover, .browseRecipeBtn:hover, .feedbackBtn:hover, .shareRecipeBtn:hover  {
+.signUpBtn:hover, .browseRecipeBtn:hover, .feedbackBtn:hover, .shareRecipeBtn:hover{
   opacity: .8;
 }
 .browseRecipeBtn {
-  background-color: #EEEC49;
+  background-color: #FF9200; /*great yellow color #EEEC49*/
 }
 .feedbackBtn {
-  background-color: #4CB0BB;
+  background-color: #4CB0BB ;
 }
 .shareRecipeBtn {
   background-color: #454B55;
